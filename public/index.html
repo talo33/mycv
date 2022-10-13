@@ -9,12 +9,13 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <link REL="SHORTCUT ICON" HREF="picture/Pictureprofile.jpg">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,20 +25,80 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" type="text/css" href="main1.css"/>
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="main">
+      <div class="top-section">
+        <img src="picture/Pictureprofile.jpg" class="profile" />
+        <p class="p1">Thanh Loc <span>Nguyen</span></p>
+        <p class="p2"><i>Front-end developer</i></p>
+      </div>
+      <div class="clearfix"></div>
+  
+      <div class="coldiv-1">
+        <div class="content-box" style="padding-left: 40px;">
+  
+          
+        <p class="head"><b>Contact</b></p>
+        <p class="p3"><i class="cont" aria-hidden="true"></i>0909852456</p>
+        <p class="p3"><i class="cont" aria-hidden="true"></i>LocNT@gmail.com</p>
+        <p class="p3"><i class="cont" aria-hidden="true"></i>HCMCity</p>
+        
+  
+        <br/>
+        <p class="head"><b>my skills</b></p>
+        <ul class="skills">
+          <li><span>Web Design</span></li>
+          <li><span>Grapic Design</span></li>
+          <li><span>HTML-5</span></li>
+          <li><span>CSS-3</span></li>
+          <li><span>Java Script</span></li>
+        </ul>
+  
+        <br/>
+        <p class="head"><b>awards</b></p>
+        <ul class="skills">
+          <li><span>CSS Design Awards</span></li>
+          <li><span>CSS Winner Awards</span></li>
+          <li><span>The Shorty Awards</span></li>
+        </ul>
+  
+        <br/>
+        <p class="head"><b>Languages</b></p>
+        <ul class="skills">
+          <li><span>Vietnamese</span></li>
+          <li><span>English</span></li>
+        </ul>
+  
+        </div>
+      </div>
+      <div class="line"></div>
+        <div class="content-box">
+        <p class="head"><b>profile</b></p>
+        <p class="p3" style="font-size: 14px;">I am a 4th year student majoring in information systems, I have a passion for web programming.
+                            <br/>Therefore I want to become a Front-end developer.</p><br/>
+        <p class="head"><b>experience</b></p>
+  
+        <p>Information System (2019 - NOW)</p>
+        <p class="p4">
+        The education was mainly System design-basic, but I also learned about Web, Data Analyst and more. During my time in college, 
+        specialized in OOP, data science. Now, I'm learning web development.</p>
+  
+        <p>Working Experiences (2021)</p>
+        <p class="p4">
+          Facebook I Fresher Engineer (Apr 2019 - June 2024)
+        </p>
+        <br/>
+  
+        <p class="head"><b>education</b></p>
+        <p class="p4" >UIT, VNU-HCM</p>
+        <p class="p4" >Apr 2019 - June 2024</p>
+  
+        </div>
+      </div>
+    </div>
+    <br/>
   </body>
 </html>
