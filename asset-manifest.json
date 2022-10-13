@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/talo33.github.io/mycv/static/css/main.073c9b0a.css",
+    "main.js": "/talo33.github.io/mycv/static/js/main.e9f83211.js",
+    "static/js/787.20416dff.chunk.js": "/talo33.github.io/mycv/static/js/787.20416dff.chunk.js",
+    "static/media/logo.svg": "/talo33.github.io/mycv/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/talo33.github.io/mycv/index.html",
+    "main.073c9b0a.css.map": "/talo33.github.io/mycv/static/css/main.073c9b0a.css.map",
+    "main.e9f83211.js.map": "/talo33.github.io/mycv/static/js/main.e9f83211.js.map",
+    "787.20416dff.chunk.js.map": "/talo33.github.io/mycv/static/js/787.20416dff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e9f83211.js"
+  ]
+}
